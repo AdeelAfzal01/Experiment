@@ -25,18 +25,14 @@ bash
 pip install openai langchain sentence-transformers duckduckgo-search transformers python-dotenv
 
 ## Setup
-Create a .env File: Create a .env file in the root directory of the project. In this file, store your OpenAI API key like this:
+Create a .env file in the root directory of the project. In this file, store your OpenAI API key like this:
 
-text
-Copy code
 OPENAI_API_key=your_openai_api_key
 ### Run the Script:
 To run the script, execute the following command in your terminal:
 
 
 python main.py
-### Question Customization:
-The script contains a predefined question: "Explain the impact of climate change on agriculture.". You can modify the question variable in the main.py script to ask different questions.
 
 ## How It Works
 
